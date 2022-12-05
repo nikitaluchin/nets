@@ -80,6 +80,7 @@ int main() {
             if (msg == "bye")
                 break;
 
+            cout << coeffs.a << " " << coeffs.b << " " << coeffs.c << endl;
             // считаем дискриминант
             double D = coeffs.b * coeffs.b - 4 * coeffs.a * coeffs.c;
 

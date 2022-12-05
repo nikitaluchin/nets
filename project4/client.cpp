@@ -111,7 +111,7 @@ int main()
 
     while (true)
     {
-        cout << "Input coeffs: a b c (or enter all zeros to exit)" << endl;
+        cout << "Input coeffs: a b c" << "(or enter all zeros to exit)" << endl;
         cin >> coeffs.a >> coeffs.b >> coeffs.c;
 
         // прерывание работы в случае нулевых коэффициентов
