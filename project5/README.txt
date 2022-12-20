@@ -1,6 +1,4 @@
-client_1 и 2 - для 1 и 2 заданий соотв-но
-
-1) server.exe, client_1.exe
-2) client_2.exe
+1) server.exe, client.exe, "", "127.0.0.1"
+2) client.exe, "json-en.html", "www.json.org"
 3) server.exe, в браузере открыть 127.0.0.1:8000
-4) telnet 127.0.0.1 8000, ОБЯЗАТЕЛЬНО нажать Enter один раз, а потом еще раз для выхода
+4) server.exe, telnet 127.0.0.1 8000, ОБЯЗАТЕЛЬНО нажать Enter один раз, а потом еще раз для выхода
